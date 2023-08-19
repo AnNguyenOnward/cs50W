@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+        <div class="topRight">
+            <a href="Index.html">Normal Search</a>
+            <a href="index.html">Image Search</a>
+        </div>
+        <div id="sideLogo">
+            <a alt="Google Image" href="google.com">
+                <img alt="Google Image" height = 25 src="Google logo.png">
+            </a>
+        </div>
+        <div id="appbar">
+            <label > Advanced Search</span>
+        </div>
+        <div class="line"></div>
+        <div class = "form">
+        <form action="https://google.com/search">
+            <div class="find">
+                <span>Find pages with...</span>
+            </div>
+        </div>
+        <div class = "searchblock">
+            <label class="searchlabel" for="findwith1">all these words</label>
+            <input class="textInput" id="findwith1" type="text" name = "as_q"> 
+        </div>
+        <div class = "searchblock">
+            <label class="searchlabel"for="findwith2">this exact word or phrase:</label>
+            <input class="textInput" id="findwith2" type="text" name = "as_epq"> 
+        </div>
+        <div class = "searchblock">
+            <label class="searchlabel"for="findwith3">any of these words:</label>
+            <input class="textInput" id="findwith3" type="text" name = "as_oq"> 
+        </div>
+        <div class = "searchblock">
+            <label class="searchlabel"for="findwith4">none of these words:</label>
+            <input class="textInput" id="findwith4" type="text" name = "as_eq"> 
+        </div>
+        <div class = "searchblock">
+            <label class="searchlabel"for="findwith5">numbers ranging from:</label>
+            <input class="numInput" id="findwith5" type="text" name="as_nlo">
+            <span class = "seperator"> to </span>
+            <input class="numInput" id="findwith5" type="text" name="as_nhi"> 
+        </div>
+        <input id = "AdvanceButton"type="submit"  value = "Advanced Search">
+        </form>
+    </div>
+    </body>
+</html>
